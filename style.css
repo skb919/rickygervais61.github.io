@@ -8,7 +8,9 @@ body {
   
   font-family: "Montserrat", sans-serif;
   background: url("../images/event.jpg");
-  background-size: 100% 100%;
+  width: 1080px;
+  height: 1080px;
+  background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
 
