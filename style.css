@@ -2,14 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  width: 1080px;
+  height: 1430px;
 }
 
 body {
   
   font-family: "Montserrat", sans-serif;
   background: url("../images/event3.jpg");
-  width: 1080px;
-  height: 1430px;
   background-size: auto;
   background-repeat: no-repeat;
 
