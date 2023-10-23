@@ -28,7 +28,7 @@ label {
   display: inline-block;
   font-weight: bold;
   padding: 10px;
-  font-color: black;
+  color: black;
 }
 
 input {
@@ -57,5 +57,5 @@ section button:hover {
  background: rgb(73, 73, 73); 
   width: 90%;
   margin: 20px auto;
-  font-color: black;
+  color: black;
 }
