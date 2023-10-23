@@ -15,6 +15,7 @@ body {
   background: url("../images/event3.jpg");
   background-size: auto;
   background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
   color: black;
 }
@@ -22,6 +23,7 @@ body {
 header {
   background: rgb(255,192,203);
   padding: 10px;
+  position: center;
 }
 
 label {
@@ -49,9 +51,11 @@ section button {
   font-size: 17px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+  position: center;
 }
 section button:hover {
   background: rgb(39, 39, 39);
+  position: center;
 }
 
 .randomNum {
