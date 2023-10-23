@@ -8,7 +8,7 @@ body {
   
   font-family: "Montserrat", sans-serif;
   background: url("../images/event3.jpg");
-  width: 1080px;
+  width: 100%;
   height: 1430px;
   background-size: auto;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@ label {
   display: inline-block;
   font-weight: bold;
   padding: 10px;
-  font-color: balck;
+  font-color: black;
 }
 
 input {
@@ -57,5 +57,5 @@ section button:hover {
  background: rgb(73, 73, 73); 
   width: 90%;
   margin: 20px auto;
-  font-color: balck;
+  font-color: black;
 }
