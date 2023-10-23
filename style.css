@@ -6,9 +6,10 @@
 }
 
 body {
-  height: 1430px;
+  max-width:100%;
+  height:auto;
   font-family: "Montserrat", sans-serif;
-  background: url("../images/back4.jpg");
+  background: url("../images/event3.jpg");
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -16,10 +17,7 @@ body {
   color: black;
 }
 
-img {
-  max-width:100%;
-  height:auto;
-}
+
 
 header {
   background: rgb(255,192,203);
