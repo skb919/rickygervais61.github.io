@@ -8,8 +8,8 @@ body {
   
   font-family: "Montserrat", sans-serif;
   background: url("../images/event.jpg");
-  background-size: auto;
-  background-position: 30px 30px;
+  background-size: cover;
+  background-position: 300px 300px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   
