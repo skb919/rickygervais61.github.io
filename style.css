@@ -10,7 +10,7 @@ body {
   height:auto;
   font-family: "Montserrat", sans-serif;
   background: url("../images/event3.jpg");
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
