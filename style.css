@@ -6,10 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-
-  background: url("../images/bg-masthead2.jpg");
-  background-position: center;
-  background-size: cover;
+  background: rgb(54, 54, 54)
 
   text-align: center;
   color: aliceblue;
