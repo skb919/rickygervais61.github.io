@@ -8,7 +8,7 @@ body {
   
   font-family: "Montserrat", sans-serif;
   background: url("../images/event3.jpg");
-  width: 100%;
+  width: 1080%;
   height: 1430px;
   background-size: auto;
   background-repeat: no-repeat;
@@ -16,11 +16,11 @@ body {
   
 
   text-align: center;
-  color: aliceblue;
+  color: black;
 }
 
 header {
-  background: rgb(105,61,174);
+  background: rgb(255,192,203);
   padding: 10px;
 }
 
