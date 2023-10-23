@@ -10,6 +10,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background-size: auto;
   background-repeat: no-repeat;
+  background: url("../images/back.jpg");
   background-position: center;
   text-align: center;
   color: black;
