@@ -77,8 +77,6 @@ section button:hover {
 
 .randomNumEl {
 /* background: rgb(73, 73, 73); */
-  width: 90%;
-  margin: 20px auto;
   color: black;
   font-size: 50px;
 }
