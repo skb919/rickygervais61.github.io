@@ -19,13 +19,19 @@ header {
   position: center;
 }
 
-section {
+.section1 {
   relative;
   width: 100%;
   height: auto;
   background: rgb(228,187,254)
 }
-
+.section2{
+  width: 100%;
+  height: auto;
+  background: url("../images/event.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 label {
   display: inline-block;
   font-weight: bold;
@@ -33,13 +39,7 @@ label {
   color: black;
   font-size: 15px;
 }
-div{
-  width: 100%;
-  height: auto;
-  background: url("../images/event.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
+
 input {
   border: none;
   font-size: 20px;
