@@ -29,6 +29,12 @@ header {
   height: auto;
   positon:center;
 }
+
+.img-event{
+  max-width:100%;
+  height:auto;
+}
+
 label {
   display: inline-block;
   font-weight: bold;
