@@ -15,7 +15,11 @@ body {
 header {
   background: rgb(255,192,203);
   padding: 10px;
-  position: relative;
+  position: center;
+}
+
+section {
+  relative;
   width: 100%;
   height: auto;
   background: url("../images/back3.jpg");
