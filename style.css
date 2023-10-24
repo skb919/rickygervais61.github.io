@@ -39,19 +39,19 @@ header {
 .ev2 {
   width:30%;
   flex:1;
-  positon:center;
+  float: center;
 }
 
 .ev1 {
   width:30%;
   flex:1;
-  positon:left;
+  float:left;
 }
 
 .ev3 {
   width:30%;
   flex:1;
-  positon:right;
+  float:right;
 }
   
 label {
