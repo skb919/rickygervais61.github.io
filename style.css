@@ -36,6 +36,21 @@ header {
   height:auto;
 }
 
+.ev2 {
+  width:30%;
+  flex:1;
+}
+
+.ev1 {
+  width:30%;
+  flex:1;
+}
+
+.ev3 {
+  width:30%;
+  flex:1;
+}
+  
 label {
   display: inline-block;
   font-weight: bold;
