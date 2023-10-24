@@ -36,23 +36,12 @@ header {
   height:auto;
 }
 
-.ev2 {
-  width:30%;
-  flex:1;
-  float: left;
-}
-
 .ev1 {
   flex:1;
   position: center;
   text-align: center;
 }
 
-.ev3 {
-  width:30%;
-  flex:1;
-  float:right;
-}
   
 label {
   display: inline-block;
