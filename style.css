@@ -44,6 +44,7 @@ header {
 
 .ev1 {
   flex:1;
+  position: center;
 }
 
 .ev3 {
