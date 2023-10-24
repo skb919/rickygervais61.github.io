@@ -39,7 +39,7 @@ header {
 .ev2 {
   width:30%;
   flex:1;
-  float: center;
+  float: left;
 }
 
 .ev1 {
