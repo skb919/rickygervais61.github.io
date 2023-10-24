@@ -27,10 +27,7 @@ header {
 .evnet{
   width: 100%;
   height: auto;
-  background: url("../images/event.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  positon:center;
 }
 label {
   display: inline-block;
