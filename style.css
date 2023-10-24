@@ -23,11 +23,7 @@ section {
   relative;
   width: 100%;
   height: auto;
-  background: url("../images/back.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: scroll;
+  background: rgb(228,187,254)
 }
 
 label {
