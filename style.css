@@ -30,6 +30,7 @@ header {
   background: url("../images/event.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 label {
   display: inline-block;
