@@ -9,12 +9,27 @@ function generateRandomNum() {
 
   randomNum = Math.floor(Math.random() * parseInt(toNum));
 
-  if (randomNum >= parseInt(fromNum)) {
+
+    if (randomNum >= parseInt(fromNum)) {
+    const randomNumEl = document.querySelector(".randomNumEl");
+    const img = document.getElementById("img");
+
+    if (randomNumEl && img) {
+      randomNumEl.innerHTML = randomNum;
+      img.src = "./images/face.png";
+
+
+      
+/*  if (randomNum >= parseInt(fromNum)) {
     const randomNumEl = document.querySelector(".randomNumEl");
     const img = document.getElementById("img");
     
     randomNumEl.innerHTML = randomNum;
-    img.src = "./images/face.png";
+    img.src = "./images/face.png"; */
 
+
+
+
+      
   }
 }
