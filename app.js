@@ -1,9 +1,11 @@
 const generateBtn = document.querySelector(".generateBtn");
 const imageContainer = document.getElementById("image-container");
+let currentIndex = 0; // 현재 이미지 배열의 인덱스
+const images = ["images/face.png", "mages/face2.png]; // 이미지 파일 경로 배열
 
-generateBtn.addEventListener("click", generateImage);
+generateBtn.addEventListener("click", changeImage);
 
-function generateImage() {
+function changeImage() {
   const fromNum = document.querySelector(".fromNum").value;
   const toNum = document.querySelector(".toNum").value;
 
@@ -20,8 +22,11 @@ function generateImage() {
   if (randomNum >= parseInt(fromNum)) {
     const randomNumEl = document.querySelector(".randomNumEl");
     const image = document.createElement("img");
-    image.src = "images/face.png";
+    image.src = images[currentIndex]; // 현재 인덱스에 해당하는 이미지 파일 경로 사용
     randomNumEl.innerHTML = randomNum;
     imageContainer.appendChild(image); // 이미지를 컨테이너에 추가
+
+    // 다음 이미지를 표시하기 위해 인덱스 업데이트
+    currentIndex = (currentIndex + 1) % images.length;
   }
 }
