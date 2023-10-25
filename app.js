@@ -16,7 +16,7 @@ function generateRandomNum() {
     const imageContainer = document.getElementById("face");
     
     randomNumEl.innerHTML = randomNum;
-    imageContainer.appendChild(face);
+    imageContainer.appendChild(img);
   }
 }
 
