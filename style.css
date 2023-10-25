@@ -83,3 +83,8 @@ section button:hover {
   font-size: 70px;
 /*   margin: 20px auto; */
 }
+.img-face{
+    max-width:100%;
+  height:auto;
+}
+
