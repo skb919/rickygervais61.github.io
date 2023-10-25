@@ -84,8 +84,7 @@ section button:hover {
 /*   margin: 20px auto; */
 }
 
-.img{
-  max-width:100%;
-  height:auto;
+.image-container{
+  background: rgb(228,187,254);
 }
 
