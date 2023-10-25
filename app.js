@@ -2,6 +2,7 @@ const generateBtn = document.querySelector(".generateBtn");
 
 generateBtn.addEventListener("click", generateRandomNum);
 
+
 function generateRandomNum() {
   const fromNum = document.querySelector(".fromNum").value;
   const toNum = document.querySelector(".toNum").value;
@@ -10,6 +11,12 @@ function generateRandomNum() {
 
   if (randomNum >= parseInt(fromNum)) {
     const randomNumEl = document.querySelector(".randomNumEl");
+    var face = document.createElement('face');
     randomNumEl.innerHTML = randomNum;
+    img.src = '.\images\face.png';
+
+
+
+    
   }
 }
