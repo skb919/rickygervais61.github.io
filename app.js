@@ -17,6 +17,10 @@ function generateRandomNum() {
     if (randomNumEl && img) {
       randomNumEl.innerHTML = randomNum;
       img.src = "./images/face.png";
+    }
+    }
+}
+
 
 
       
@@ -29,7 +33,3 @@ function generateRandomNum() {
 
 
 
-
-      
-  }
-}
