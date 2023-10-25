@@ -24,8 +24,8 @@ function generateRandomNum() {
     const imageContainer = document.getElementById("image-container");
     imageContainer.appendChild(image);
     count ++;
-    if (count === 1)
-    { function resetImage();
+    if (count === 2)
+    { function resetImage()
     }
 }
 
