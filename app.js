@@ -25,7 +25,8 @@ function generateRandomNum() {
     imageContainer.appendChild(image);
     count ++;
     if (count === 2)
-    { function resetImage()
+    { 
+        resetImage()
     }
   }
 }
