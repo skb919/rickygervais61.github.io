@@ -1,7 +1,7 @@
 const generateBtn = document.querySelector(".generateBtn");
 const imageContainer = document.getElementById("image-container");
 let currentIndex = 0;
-const images = ["images/faca.png", "images/facb.png"];
+const images = ["images/facea.png", "images/faceb.png"];
 
 generateBtn.addEventListener("click", changeImage);
 
