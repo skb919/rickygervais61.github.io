@@ -1,7 +1,7 @@
 const generateBtn = document.querySelector(".generateBtn");
 const imageContainer = document.getElementById("image-container");
 let currentIndex = 0; // 현재 이미지 배열의 인덱스
-const images = ["images/face.png", "mages/face2.png]; // 이미지 파일 경로 배열
+const images = ["images/face.png", "images/face2.png]; // 이미지 파일 경로 배열
 
 generateBtn.addEventListener("click", changeImage);
 
