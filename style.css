@@ -84,3 +84,8 @@ section button:hover {
 /*   margin: 20px auto; */
 }
 
+.img-event{
+  max-width:100%;
+  height:auto;
+}
+
