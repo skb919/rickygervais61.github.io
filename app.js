@@ -13,9 +13,10 @@ function generateRandomNum() {
   if (randomNum >= parseInt(fromNum)) {
     const randomNumEl = document.querySelector(".randomNumEl");
     const img = document.createElement("img");
+    const imageContainer = document.getElementById("face");
     
     randomNumEl.innerHTML = randomNum;
-    img.src="images/face.png";
+    imageContainer.appendChild(image);
   }
 }
 
