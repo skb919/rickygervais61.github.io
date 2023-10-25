@@ -27,6 +27,8 @@ function generateRandomNum() {
     if (count === 2)
     { function resetImage()
     }
+  }
 }
+
 
 
