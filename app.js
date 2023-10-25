@@ -12,7 +12,7 @@ function generateRandomNum() {
 
   if (randomNum >= parseInt(fromNum)) {
     const randomNumEl = document.querySelector(".randomNumEl");
-    const img = document.getElementById(".img");
+    const img = document.body.appendChild(".img");
     
     randomNumEl.innerHTML = randomNum;
     img.src="images/face.png";
