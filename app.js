@@ -13,10 +13,7 @@ function generateRandomNum() {
     const randomNumEl = document.querySelector(".randomNumEl");
     var face = document.createElement('face');
     randomNumEl.innerHTML = randomNum;
-    img.src = '.\images\face.png';
+    img.src = 'images/face.png';
 
-
-
-    
   }
 }
