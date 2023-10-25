@@ -11,9 +11,11 @@ function generateRandomNum() {
 
   if (randomNum >= parseInt(fromNum)) {
     const randomNumEl = document.querySelector(".randomNumEl");
-    var face = document.createElement('face');
+    var img = document.createElement('img');
+    
     randomNumEl.innerHTML = randomNum;
-    img.src = 'images/face.png';
+    img.src = 'images/face.png'; 
+    document.getElementById('body').appendChild(img);
 
   }
 }
