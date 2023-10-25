@@ -15,7 +15,6 @@ function generateRandomNum() {
     
     randomNumEl.innerHTML = randomNum;
     img.src = 'images/face.png'; 
-    document.body.appendChild(img);
 
   }
 }
