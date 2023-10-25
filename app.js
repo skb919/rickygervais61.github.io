@@ -12,15 +12,12 @@ function generateRandomNum() {
 
   if (randomNum >= parseInt(fromNum)) {
     const randomNumEl = document.querySelector(".randomNumEl");
-    const img = document.body.appendChild(".img");
+    const img = document.createElement("img");
     
     randomNumEl.innerHTML = randomNum;
     img.src="images/face.png";
+    document.body.appendChild(img);
   }
 }
-
-      
-
-
 
 
