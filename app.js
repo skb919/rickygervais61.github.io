@@ -1,7 +1,7 @@
 const generateBtn = document.querySelector(".generateBtn");
 const imageContainer = document.getElementById("image-container");
 let currentIndex = 0;
-const images = ["images/facea.png", "images/faceb.png"];
+const images = ["images/1.png", "images/2.png","images/3.png", "images/4.png", "images/5.png", "images/6.png"];
 const usedNumbers = []; // 이미 사용된 숫자를 기록할 배열
 
 generateBtn.addEventListener("click", changeImage);
